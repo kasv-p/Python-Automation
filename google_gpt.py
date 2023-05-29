@@ -29,7 +29,7 @@ import openai
 
 
 def chat_gpt(texts):
-    openai.api_key = "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"
+    openai.api_key = "<API_KEY>"
     response = openai.ChatCompletion.create(model='gpt-3.5-turbo', messages=[
                                             {"role": "system", "content": texts}])
     return response.choices[0]['message']['content']
