@@ -24,15 +24,3 @@ while True:
 		break
 	time.sleep(100)
 print('DONE')
-
-# import requests
-# import bs4
-# from plyer import notification
-#
-# link='https://www.cricbuzz.com/cricket-series/4061/indian-premier-league-2022/points-table'
-#
-#
-# res=requests.get(link)
-#
-# soup=bs4.BeautifulSoup(res.text,'html.parser') # entire source code of website
-# print(soup)
