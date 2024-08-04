@@ -1,6 +1,6 @@
 import requests
 
-API_KEY = 'befefbd8b1bd0eea891ab7191df87cbf'
+API_KEY = '<API KEY>'
 BASE_URL = 'http://api.openweathermap.org/data/2.5/weather'
 city = 'chennai'
 request_url = f"{BASE_URL}?appid={API_KEY}&q={city}"
